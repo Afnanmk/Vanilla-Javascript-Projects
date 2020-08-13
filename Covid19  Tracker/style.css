@@ -1,0 +1,193 @@
+*{
+    margin:auto;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(94, 86, 86);
+    height: 8%;
+    
+   
+  }
+  
+  li {
+    display: inline;
+    
+    
+  }
+  li a{
+   
+    padding: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+    float: right;
+    margin-right: 50px;
+    margin-top: 13px;
+    
+  }
+  li a:hover{
+      color: honeydew;
+      font-size: 18px;
+  }
+.container{
+    text-align: center;
+
+}
+.container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:35px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    color: rgb(54, 54, 172);
+    
+}
+.container h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(82, 79, 79);
+    font-size: 30px;
+    margin-bottom: 2%;
+    
+}
+.output{
+    width: 40%;
+    padding:0px 0px 15px 0px;
+    border: 1px solid rgb(78, 78, 83);
+    border-radius: 4px;
+    /* border-top: 3px solid rgb(78, 78, 83);
+    border-bottom: 3px solid rgb(78, 78, 83); */
+    border-left: 3px solid rgb(127, 127, 131);
+    border-right: 3px solid rgb(127, 127, 131);
+}
+
+.output h3{
+    padding: 25px 0px 20px 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(108, 112, 117);
+    padding-bottom: 5px;
+    
+    
+    
+}
+.output h4.case{
+    font-size:45px;
+    color: rgb(8, 103, 197);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.output h4.death{
+    font-size:45px;
+    color: rgb(202, 12, 12);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.output h4.recovery{
+    font-size:45px;
+    color: rgb(18, 194, 27);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* CHART SECTION */
+.chart h2{
+    color: rgb(82, 79, 79);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top:60px;
+}
+
+
+/* TABLE SECTION*/
+.table_track h3{
+    color: rgb(82, 79, 79);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top:70px;
+    margin-bottom:15px;
+    /* border-left: 3px solid #0000ff; */
+    
+    
+}
+.table_track h3::before{
+    border-left: 8px solid rgb(146, 145, 145);
+    content:"";
+    padding:0px 10px;
+    
+}
+.table_track h3::after{
+    border-right: 8px solid rgb(143, 143, 143);
+    content:"";
+    padding:0px 10px;
+    
+}
+#myInput {
+    background: url('/img/searchicon2.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 20%;
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    border: 1px solid rgb(196, 195, 195);
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 60%;
+  }
+ .source{
+    color: gray;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    padding-right: 5px;
+    width:45%;
+    font-weight: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 269px;
+ }
+
+.table_track table,th,td{
+    border:1px solid rgb(187, 187, 187);
+    border-collapse: collapse;
+    
+}
+th,td{
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(63, 65, 64);
+}
+
+th{
+    padding:7px;
+    border-bottom: 2px solid rgb(214, 214, 214);
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+}
+
+.tabl{
+   margin-left: 270px;
+   text-align: center;
+}
+.country{
+    text-align: left;
+   
+}
+.country:hover{
+    background-color: rgb(222, 223, 223);
+   
+}
+.link{
+    
+    color:rgb(81, 53, 202);
+}
+.link:hover{
+    color:rgb(45, 18, 165);
+}
